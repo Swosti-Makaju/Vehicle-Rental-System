@@ -48,6 +48,49 @@ body {
     color: black;
 }
 
+.login-section, .register-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h1, .register-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+}
+
+.login-section form, .register-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-section form input, .register-section form input, .register-section form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-section form input[type="submit"], .register-section form input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-section form input[type="submit"]:hover, .register-section form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
 .about-section {
     max-width: 800px;
     margin: 20px auto;
