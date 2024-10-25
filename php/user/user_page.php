@@ -4,7 +4,7 @@
 
 session_start();
 
-if(!isset($_SESSION['user_name'])){
+if(!isset($_SESSION['username'])){
    header('location:login_form.php');
 }
 
@@ -19,7 +19,7 @@ if(!isset($_SESSION['user_name'])){
    <title>User page</title>
 
    <!-- custom css file link  -->
-   <link rel="stylesheet" href="../css/user_page.css">
+   <link rel="stylesheet" href="../../css/user_page.css">
 
 </head>
 <body>
@@ -28,10 +28,10 @@ if(!isset($_SESSION['user_name'])){
 
    <div class="content">
       <h3>hi, <span>user</span></h3>
-      <h1>welcome <span><?php echo $_SESSION['user_name'] ?></span></h1>
+      <h1>welcome <span><?php echo $_SESSION['username'] ?></span></h1>
       <p>this is an user page</p>
       <a href="../user/login_form.php" class="btn">login</a>
-      <a href="register_form.php" class="btn">register</a>
+      <a href="../register_form.php" class="btn">register</a>
       <a href="../user/logout.php" class="btn">logout</a>
    </div>
 
