@@ -203,7 +203,7 @@
                 <input type="text" name="vehiclename" placeholder="Enter vehicle Name" required><br><br>
 
                 <label>Vehicle Type:</label><br>
-                <input type="text" name="vehicletype" placeholder="Enter Vehicle Type (e.g., Car, Bike, Scooter)"  required><br>
+                <input type="text" name="vehicletype" placeholder="Enter Vehicle Type (e.g., Car, Bike, Scooter)"  required><br><br>
 
                 <label>Fuel Type:</label><br>
                 <input type="text" name="ftype" placeholder="Enter Fuel Type" required><br><br>
@@ -215,7 +215,7 @@
                 <input type="number" name="price" min="1" placeholder="Enter Price Of vehicle for One Day (in rupees)"
                     required><br><br>
 
-                <label>vehicle Image:</label><br>
+                <label>Vehicle Image:</label><br>
                 <input type="file" name="image" required><br><br>
 
                 <input type="submit" class="btnn" value="ADD vehicle" name="addvehicle">
