@@ -17,7 +17,7 @@
 <style>
 body {
     width: 90%;
-    background-image: url("images/adminbg2.jpg");
+    background-image: url("images/admin.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

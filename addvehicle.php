@@ -181,7 +181,7 @@
 
     <header class="navbar">
         <div class="logo">
-            <h2>ValoRent</h2>
+            <h2>VeloRent</h2>
         </div>
         <nav class="menu">
             <ul>
