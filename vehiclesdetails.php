@@ -141,15 +141,10 @@ body {
     margin-top: 40px;
 }
 
-.circle {
-    border-radius: 48%;
-    width: 65px;
-}
-
 .phello {
     color: white;
     width: 200px;
-    margin-left: -50px;
+    margin-right: -50px;
     padding: 0px;
 }
 
@@ -209,8 +204,7 @@ footer p {
                 <li><a href="contactus.html">CONTACT</a></li>
                 <li><a href="feedback/Feedbacks.php">FEEDBACK</a></li>
                 <li><button class="nn"><a href="index.php">LOGOUT</a></button></li>
-                <li><img src="images/profile.png" class="circle" alt="Alps"></li>
-                <li><p class="phello">HELLO! &nbsp;<a id="pname"><?php echo $rows['FNAME']." ".$rows['LNAME']?></a></p></li>
+                <li><p class="phello"> &nbsp;<a id="pname"><?php echo $rows['FNAME']." ".$rows['LNAME']?></a></p></li>
                 <li><a id="stat" href="bookinstatus.php">BOOKING STATUS</a></li>
             </ul>
         </div>
@@ -232,7 +226,7 @@ footer p {
                 <h1><?php echo $result['VEHICLE_NAME']?></h1>
                 <h2>Fuel Type : <a><?php echo $result['FUEL_TYPE']?></a> </h2>
                 <h2>CAPACITY : <a><?php echo $result['CAPACITY']?></a> </h2>
-                <h2>Rent Per Day : <a>₹<?php echo $result['PRICE']?>/-</a></h2>
+                <h2>Rent Per Day : <a>Rs<?php echo $result['PRICE']?>/-</a></h2>
                 <button type="submit" name="booknow" class="utton" style="margin-top: 5px;">
                     <a href="booking.php?id=<?php echo $res;?>">book</a>
                 </button>

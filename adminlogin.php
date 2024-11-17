@@ -159,7 +159,7 @@ body {
                 if($pass  == $db_password)
                 {
                     echo '<script>alert("Welcome ADMINISTRATOR!");</script>';
-                    header("location: admindash.php");
+                    header("location: adminusers.php");
                 }
                 else {
                     echo '<script>alert("Enter a proper password")</script>';
