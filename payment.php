@@ -219,7 +219,7 @@ if(isset($_POST['pay'])){
 
 
 
-  <h2 class="payment">TOTAL PAYMENT : <a>₹<?php echo $email['PRICE']?>/-</a></h2>
+  <h2 class="payment">TOTAL PAYMENT : <a>Rs<?php echo $email['PRICE']?>/-</a></h2>
 
     <div class="card">
       <form method="POST">

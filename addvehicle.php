@@ -199,7 +199,7 @@
         <div class="register">
             <h2>Enter Details Of New vehicle</h2>
             <form id="register" action="upload.php" method="POST" enctype="multipart/form-data">
-                <label>vehicle Name:</label><br>
+                <label>Vehicle Name:</label><br>
                 <input type="text" name="vehiclename" placeholder="Enter vehicle Name" required><br><br>
 
                 <label>Vehicle Type:</label><br>
