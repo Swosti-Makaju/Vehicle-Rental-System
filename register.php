@@ -105,22 +105,6 @@ input#cpsw{
     background-color: #fff;
     box-shadow:inset 1px 1px 5px rgba(0,0,0,0.3);
 }
- /* #message {
-  display:none;
-  background: #f1f1f1;
-  color: #000;
-  position: relative;
-  padding: 20px;
-  
-  width: 400px;
-  margin-left:1000px;
-  margin-top: -500px;
-}
-
-#message p {
-  padding: 10px 35px;
-  font-size: 18px;
-} */
 
 /* Add a green text color and a checkmark when the requirements are right */
 .valid {
